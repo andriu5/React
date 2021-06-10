@@ -1,0 +1,7 @@
+<p>The current time is: <span id="time"></span></p>
+<button id="time-btn">Get current time</button>
+<script>
+document.getElementById('time-btn').onclick = () => {
+    document.getElementById('time').innerHTML = new Date().toString();
+}
+</script>
